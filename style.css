@@ -1,0 +1,35 @@
+.header a{
+    font-weight: bold;
+    background-color: rgb(175, 83, 83);
+    font-size: larger;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 22px;
+}
+.span{
+    font-weight: bold;
+    font-size: large;
+    margin-right: 15px;
+}
+.navigation{
+    background-color: rgb(160, 124, 124);
+}
+.items a{
+    text-decoration: none;
+    text-align: start;
+    justify-content: left;
+}
+.links a{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(173, 138, 138);
+    border-radius: 50%;
+    color: black;
+    transition: all 0.3s ease;
+}
+.lists ul li a:hover{
+    background: rgb(173, 138, 138);
+    padding-left: 10px;
+    transition: all 0.3s ease ;
+    border-radius: 20px;
+}
